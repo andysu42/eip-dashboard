@@ -1,0 +1,11 @@
+@import "base.scss";
+/* the props */
+@import "open-props/style";
+
+/* optional imports that use the props */
+@import "open-props/normalize";
+@import "open-props/buttons";
+
+/* just light or dark themes */
+@import "open-props/normalize/dark";
+@import "open-props/normalize/light";
